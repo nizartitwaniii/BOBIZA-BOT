@@ -256,13 +256,13 @@ conn.ev.off('connection.update', conn.connectionUpdate)
 conn.ev.off('creds.update', conn.credsUpdate)
 }
   
-conn.welcome = '@user*\n مرحبا صديقي في هذه المجموعة\n أعرفك على نفسي : أنا أدعى بوبيزة بوت أول بوت واتساب في المغرب وفي الوطن العربي  اقوم بالمئات من الخدمات يمكنك التعرف عليها عبر مشاهدة فيديوات صانعي ومطوري نورالدين من هنا :\n\n *instagram :*\ninstagram.com/noureddine_ouafy \n*youtube :*\n https://youtube.com/@noureddineouafy2 \n*facebook:*\n https://www.facebook.com/profile.php?id=100063533185520 ♥'
-conn.bye = '😐😐\n@user\n*الى اللقاء👋🏻* \n\n *instagram :*\n instagram.com/noureddine_ouafy \n *youtube :*\n https://youtube.com/@noureddineouafy2 \n *facebook:*\n https://www.facebook.com/profile.php?id=100063533185520 ♥'
-conn.spromote = '@user تمت ترقيته ليصبح أدمن هذه المجوعة \n تابع صاحب البوت في حسابه \n  instagram.com/noureddine_ouafy *'
+conn.welcome = '@user*\n مرحبا صديقي في هذه المجموعة\n أعرفك على نفسي : أنا أدعى بوبيزة بوت أول بوت واتساب في المغرب وفي الوطن العربي  اقوم بالمئات من الخدمات يمكنك التعرف عليها عبر مشاهدة فيديوات صانعي ومطوري نزار  ا :\n\n * :*\n \n* :*\n  \n*facebook:*\n https://www.facebook.com/nizar.primo.946 ♥'
+conn.bye = '😐😐\n@user\n*الى اللقاء👋🏻* \n\n *instagram :*\n  \n *youtube :*\n  \n *facebook:*\n ♥'
+conn.spromote = '@user تمت ترقيته ليصبح أدمن هذه المجوعة \n تابع صاحب البوت في حسابه \n  https://www.facebook.com/nizar.primo.946 *'
 conn.sdemote = '*@user تمت ازالته من لائحة الادمينز او المشرفين على المجموعة!!*'
 conn.sDesc = '*تم التعديل على وصف المجموعة*\n\n*الوصف الجديد هو \n:* @desc'
 conn.sSubject = '*تم تغيير اسم المجموعة*\n*new name:* @subject'
-conn.sIcon = '*تم تغيير صورة البروفايل الخاصة بهذه المجموعة \n instagram.com/noureddine_ouafy!!*'
+conn.sIcon = '*تم تغيير صورة البروفايل الخاصة بهذه المجموعة \n https://www.facebook.com/nizar.primo.946*'
 conn.sRevoke = '*𝚂𝙴 𝙷𝙰 𝙰𝙲𝚃𝚄𝙰𝙻𝙸𝚉𝙰𝙳𝙾 𝙴𝙻 𝙻𝙸𝙽𝙺 𝙳𝙴𝙻 𝙶𝚁𝚄𝙿𝙾!!*\n*𝙻𝙸𝙽𝙺 𝙽𝚄𝙴𝚅𝙾:* @revoke'
 
 conn.handler = handler.handler.bind(global.conn)
@@ -408,7 +408,7 @@ if (stopped == 'close') return
 const status = global.db.data.settings[conn.user.jid] || {}
 let _uptime = process.uptime() * 1000    
 let uptime = clockString(_uptime)
-let bio = `BOBIZA BOT [أول بوت واتساب في العالم العربي] 🏃🔥🌷`
+let bio = `مرحبا انا بوت في واتساب وارجوا لا تكتر رسائل علي لان سوف اتوقف عن عمل 💙⚡`
 await conn.updateProfileStatus(bio).catch(_ => _)
 }, 60000)
 function clockString(ms) {
