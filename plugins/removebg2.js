@@ -31,7 +31,7 @@ let handler = async (m, {
                     },
                 })
                 const buffer = await response.arrayBuffer()
-                await conn.sendFile(m.chat, Buffer.from(buffer), '', '*Made by:* instagram.com/noureddine_ouafy', m)
+                await conn.sendFile(m.chat, Buffer.from(buffer), '', '*Made by:* https://www.facebook.com/nizar.primo.946', m)
             
         } catch (e) {
             try {
@@ -44,7 +44,7 @@ let handler = async (m, {
                 url = API('lolhuman', '/api/removebg', {
                     img
                 }, 'apikey')
-            await conn.sendFile(m.chat, url, 'removebg.png', 'instagram.com/noureddine_ouafy', m)
+            await conn.sendFile(m.chat, url, 'removebg.png', 'https://www.facebook.com/nizar.primo.946', m)
             }
         }
     } else {
