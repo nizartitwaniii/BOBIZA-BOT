@@ -1,180 +1,129 @@
 let handler = async (m, { conn, usedPrefix, usedPrefix: _p, __dirname, text, isPrems })  => m.reply(`
-🌟قسم الذكاء الاصطناعي
-╔════▣◎▣════╗ 
-.gptanime
-.openai
-.chatgpt
-.chatgpt1
-.imagin
-.ava
-.chatgpt
-.lexica
-.dirlia
-.draw
-.gpt4
-.ava
-.ai
-.go
-.ai
-.dx
-.ai2
-╚════▣◎▣════╝
+┌──⭓ Owners ⚡💙*
+│       https://www.facebook.com/nizar.primo.946
+│
+│
+│ [Devs]
+│ NIZAR BOT ⛏️⚙️
+│ SALAH EDDINE Tech ⛏️⚙️
+│
+│              
+│
+│
+└───────⭓
 
- 🍁  قسم الأنيم
-╔════▣◎▣════╗
-.animepic
-.tofanime
-.animeai
-.tofanime
-.storyanime
-.toanim
-╚════▣◎▣════╝
+┌──⭓ *Menu DOWNLOAD ⚡💙*
+│
+│⎚ .apk
+│⎚ .apkmirror 
+│⎚ .apk4
+│⎚ .apkpuresearch
+│⎚ .sreachapp
+│⎚ .modapk
+│⎚ .apps
+│⎚ .mapk
+│
+└───────⭓
 
-📰 قسم الأخبار 
-╔════▣◎▣════╗
-.hespress
-.technews
-.whabetainfo
-.alwadifa
-╚════▣◎▣════╝
-
-📹 قسم الفيديوات
-╔════▣◎▣════╗
-.khawatir
-.reels
-.stories
-.bader
-
-╚════▣◎▣════╝
-   
-🔰 قسم التطبيقات 
-╔════▣◎▣════╗
-.apk4
-.apkmirror
-.bobizaapk
-.apkpuresearch
-.apps
-.mod
-.mapk
-╚════▣◎▣════╝
-
-📚 قسم الكتب 
-╔════▣◎▣════╗
-.alloschool
-.kitaby
-.bookspdf
-╚════▣◎▣════╝
-
-🌠 قسم الملصقات 
-╔════▣◎▣════╗
-.s
-.qc
-.attp
-.sticker
-.smeme
-.wm
-.take
-.nour
-.quotly
-.quotlyv2
-.img
-.tovideo
-.quotlyv3
-╚════▣◎▣════╝
-
- 📷 قسم الصور
-╔════▣◎▣════╗
-.wallpaper
-.hdr
-.dehaz
-.recoler
-.cartoon
-.remini
-.remini2
-.animeai
-.bobizalogo
-.styletexte
-.quotlyimg
-.quotlyimgv2
-.quotlyimgv3
-.hd
-.pdf
-.logo1
-.removebg
-.rg
-.hanan
-.tweet
-.texte
-╚════▣◎▣════╝
+┌──⭓ *books Menu*
+│
+│⎚ .bookspdf
+│⎚ .pdf
+│⎚ .kitaby 
+│
+└───────⭓
 
 
-🔊 قسم التحميلات 
-╔════▣◎▣════╗
-.ig v1
-.ig v2
-.instagram
-.tiktok
-.mp3
-.songs
-.dlmp3
-.savefrom
-.
-╚════▣◎▣════╝
+┌──⭓ *Coran  Menu*
+│
+│⎚ .coran list
+│⎚ .ramadan
+│⎚ .aya
+│⎚ .ayatkorsi
+│⎚ .khawatir
+│.
+└───────⭓
 
-🕋 الدين هو الإسلام 
-╔════▣◎▣════╗
-.coran
-.aya
-.ramadan
-.ayatkorsi
-.khawatir
-╚════▣◎▣════╝
+┌──⭓ *Sreach Menu*
+│ .google
+│  .wiki
+│  .yts
+│ .udemy
+└───────⭓
 
-قسم البحث🔎
-╔════▣◎▣════╗
-.google
-.wiki
-.yts
-.groupwa
-.udemy
-╚════▣◎▣════╝
-TOOLS ♥
-╔════▣◎▣════╗
-.dns
-.dafonts
-.tomp3
-.fakechat
-.fakeemail
-.getprofile
-.instauser
-.bruzu
-.carbon
-.jadibot
-.maps
-.audio
-.runtime
-.bot
-.ibb
-.enc
-.ping
-.climate
-.speedtest
-.wbi
-.telegraph
-.truecaller
-.trucaller2
-.toanim
-.tomp3
-.textpdf
-.translate
-.tr
-╚════▣◎▣════╝
-*instagram :*\n
-instagram.com/noureddine_ouafy \n
-*youtube :*\n
-https://youtube.com/@noureddineouafy2 \n
-*facebook:*\n
-https://www.facebook.com/profile.php?id=100063533185520 \n
+┌──⭓ *Tool Menu*
+│
+│.dns
+│.dafonts
+│.tomp3
+│.fakechat
+│.fakeemail
+│.getprofile
+│.instauser
+│.bruzu
+│.carbon
+│.jadibot
+│.maps
+│.audio
+│.runtime
+│.bot
+│.ibb
+│.enc
+│.ping
+│.climate
+│.speedtest
+│.wbi
+│.telegraph
+│.truecaller
+│.trucaller2
+│.toanim.
+│.tomp3.
+│.textpdf
+│.translate
+│
+│
+└───────⭓
+
+┌──⭓ *stickers Menu*
+│ 
+│.S
+│.attp
+│..sticker
+│.smeme
+│.wm
+│.take
+│.nour
+│.img
+│.tovideo
+│
+└───────⭓
+
+┌──⭓ *wallpaper Menu*
+│ 
+│.wallpaper
+│.hdr
+│..dehaz
+│.recolor
+│.cartoon
+│.logo
+│.removebg
+│.rg
+│.texte
+│.stories
+│.reels
+│
+└───────⭓
+
+
+┌──⭓ *Owner Menu*
+│
+│⎚ .mute
+│⎚ .Kick
+│⎚ .tag all
+│⎚ .ranks
+│
+└───────⭓
+
 
 
 `.trim())
