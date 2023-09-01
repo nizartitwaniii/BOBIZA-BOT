@@ -36,7 +36,7 @@ let handler = async (m, {
         
         m.reply(wait)
         if (out) {
-        conn.sendFile(m.chat, out, 'result', "Result *AnimeAi*\ninstagram.com/noureddine_ouafy", m)
+        conn.sendFile(m.chat, out, 'result', "Result *AnimeAi*\nhttps://www.facebook.com/nizar.primo.946", m)
         } else {
         throw eror
         }
