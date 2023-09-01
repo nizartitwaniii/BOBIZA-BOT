@@ -13,7 +13,7 @@ let handler = async (m, {
     command
 }) => {
     var effects = await theme()
-    var salah = 'اكتب الامر متبوعا برقم التأثير + الكلمة التي تريد تحويلها للوغو\n مثلا:\n.bobizalogo 23 noureddine\n\n' + effects.map((v, index) => {
+    var salah = 'اكتب الامر متبوعا برقم التأثير + الكلمة التي تريد تحويلها للوغو\n مثلا:\n.logo 23 noureddine\n\n' + effects.map((v, index) => {
         return `${++index}. ${v.title}`
     }).join('\n')
     if (!effect) return m.reply(salah)
@@ -39,7 +39,7 @@ let handler = async (m, {
 }
 handler.help = ['tekspro'].map(v => v + ' <effect> <text>')
 handler.tags = ['maker']
-handler.command = /^(bobizalogo)$/i
+handler.command = /^(logo)$/i
 
 export default handler
 
