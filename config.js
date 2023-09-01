@@ -30,11 +30,11 @@ global.owner = [
 global.suittag = ['212605784394'] 
 global.prems = ['212605784394'] 
 
-global.packname = '亗『𝐁𝐎𝐁𝐈𝐙𝐀 𝐁𝐎𝐓』亗'
-global.author = 'ミ💖 Noureddine Ouafy 💖彡'
-global.wm = '亗『𝐁𝐎𝐁𝐈𝐙𝐀 𝐁𝐎𝐓』亗'
-global.igfg = 'ミ💖 Noureddine Ouafy 💖彡'
-global.wait = '  ❛ ━━･❪ BOBIZA BOT ❫ ･━━ ❜ \n جاري تلبية طلبكم تابع صاحب البوت في الانستغرام \ninstagram.com/noureddine_ouafy\nانضم الى مجموعتي على الواتساب فيها أنشر الميزات الجديدة في البوت \nhttps://chat.whatsapp.com/FCudAHwTYLtJu242Zv1MmR'
+global.packname = '亗『Nizar Bot』亗'
+global.author = 'ミ💖 Nizar Bot 💖彡'
+global.wm = '亗『Nizar Bot』亗'
+global.igfg = 'ミ💖 Nizar Bot 💖彡'
+global.wait = '  ❛ ━━･❪ NIZAR BOT ❫ ･━━ ❜ \n  جاري تلبية طلبك تابع صاحب بوت في فيسبوك [:م \nhttps://www.facebook.com/nizar.primo.946\nانضم الى مجموعتي \nhttps://www.facebook.com/nizar.primo.946'
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg')
 global.imagen2 = fs.readFileSync('./src/nuevobot.jpg') 
