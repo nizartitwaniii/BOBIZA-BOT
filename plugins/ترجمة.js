@@ -5,7 +5,7 @@ const tld = 'cn'
 
 let handler = async (m, { args, usedPrefix, command }) => {
     let err = `
-💝 BOBIZA BOT 💝
+💝 XERATHOR BOT 💝
          Translator
 
 🔊 ex :
