@@ -6,7 +6,7 @@ let handler = async (m, { conn, text }) => {
   await m.reply(wait)
   try {
     const wallpaperURL = await fetchWallpaper(text);
-    await conn.sendFile(m.chat, wallpaperURL, "instagram.com/noureddine_ouafy", m);
+    await conn.sendFile(m.chat, wallpaperURL, "https://www.facebook.com/nizar.primo.946", m);
   } catch (e) {
     await m.reply(eror);
   }
