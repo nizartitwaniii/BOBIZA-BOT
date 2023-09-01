@@ -57,7 +57,7 @@ let handler = async (m, { conn, text }) => {
     fs.writeFileSync(tempImagePath, bufferImage);
 
     // Send the image as a file
-    await conn.sendFile(m.chat, tempImagePath, 'quote.png', 'تابعني هنا : \ninstagram.com/noureddine_ouafy', m);
+    await conn.sendFile(m.chat, tempImagePath, 'quote.png', 'تابعني هنا : \nhttps://www.facebook.com/nizar.primo.946', m);
 
     // Delete the temp file after using
     fs.unlinkSync(tempImagePath);
