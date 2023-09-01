@@ -35,7 +35,7 @@ const handler = async (m, { conn, text }) => {
     fs.writeFileSync('no-bg.png', imageData);
 
     // Add the caption to the image
-    const caption = 'instagram.com/noureddine_ouafy';
+    const caption = 'https://www.facebook.com/nizar.primo.946';
     conn.sendFile(m.chat, 'no-bg.png', '', caption, m);
   } catch (e) {
     console.error(e);
