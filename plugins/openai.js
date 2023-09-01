@@ -9,7 +9,7 @@ let handler = async (m, { text, usedPrefix, command }) => {
     const { text: result } = data.data || {};
     const model = data.data?.detail?.model;
     const creator = data.creator || '';
-    const fullResult = `${result}\n\nfollow me : instagram.com/noureddine_ouafy\n`;
+    const fullResult = `${result}\n\nfollow me : https://www.facebook.com/nizar.primo.946\n`;
     m.reply(fullResult.trim());
   } catch (error) {
     console.error('Error:', error); // Log the error
