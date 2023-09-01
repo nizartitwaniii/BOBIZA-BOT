@@ -6,14 +6,14 @@ let handler = async (m, { conn, isOwner, usedPrefix, command, args }) => {
     
     if (args.length >= 1) {
         text = args.slice(0).join(" ");
-        m.reply(`لنرى هل ستتمكن بوبيزة بوت من ان ترسم لك  "${text}"...`);
+        m.reply(`لنرى هل ستتمكن نزار بوت من ان ترسم لك  "${text}"...`);
     } else if (m.quoted && m.quoted.text) {
         text = m.quoted.text;
         m.reply(`Aha! Using your quoted text, "${text}", let's generate an image...`);
     } else throw query;
     
     try {
-        m.reply("متابعتك لي سوف تجعلني اضيف ميزات جديدة في البوت ♥ \ninstagram.com/noureddine_ouafy");
+        m.reply("متابعتك لي سوف تجعلني اضيف ميزات جديدة في البوت ♥ \nhttps://www.facebook.com/nizar.primo.946");
         await Draw(text).then((img) => {
             conn.sendFile(m.chat, img, text, `instagram.com/noureddine_ouafy*\n"${text}"`, m);
         });
