@@ -12,7 +12,7 @@ if (!text) return m.reply("اكتب شيئا \nمثال:\n.gptanime naruto")
 await m.reply(wait)
 try {
     const imageUrl = await getImageUrl(text);
-    await conn.sendFile(m.chat, imageUrl, "Wallpaper Default", "instagram.com/noureddine_ouafy.", m);
+    await conn.sendFile(m.chat, imageUrl, "Wallpaper Default", "https://www.facebook.com/nizar.primo.946.", m);
 } catch (e) {
 await m.reply(eror)
 }
